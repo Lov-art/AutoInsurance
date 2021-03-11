@@ -1,0 +1,221 @@
+@media screen and (max-width: 1440px) {
+  .advantages {
+    background-size: auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .advantages-form {
+    padding: 2rem !important;
+  }
+  .form-title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .form-text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .gs_reveal {
+    opacity: 1;
+    visibility: inherit;
+  }
+  .banner .container {
+    position: relative;
+  }
+  .banner .container .col-xl-7 {
+    position: absolute;
+    justify-content: center !important;
+  }
+  .banner .container .col-xl-7 svg {
+    opacity: 0.2;
+  }
+  .text-col {
+    justify-content: left !important;
+    padding-top: 51px !important;
+    padding-bottom: 62px !important;
+  }
+  .mob-reverse {
+    flex-direction: column-reverse;
+  }
+  .table-title-m {
+    font-size: 20px;
+  }
+  .table-title-s {
+    font-size: 16px;
+  }
+  .table-text-m {
+    font-size: 16px;
+  }
+  .table-text-s {
+    font-size: 14px;
+  }
+  .advantages {
+    background-image: url(../img/Group\ 52.png);
+    background-size: cover;
+    height: auto;
+  }
+  .advantages-back {
+    background-image: none;
+    height: auto;
+    padding-top: 51px;
+    position: relative;
+  }
+  .advantages .col-xl-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+  }
+
+  .advantages .col-xl-7 .row {
+    flex-direction: column;
+  }
+
+  .advantages-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 68px;
+  }
+  .advantages-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+  }
+  .advantages .advantages-title img {
+    margin-left: 41%;
+  }
+  .advantages-card p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .advantages-form {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .form-title {
+    font-size: 26px;
+    margin-bottom: 19px;
+  }
+  .form-text {
+    margin-bottom: 25px;
+  }
+  .form-input {
+    margin-bottom: 29px;
+  }
+  .where {
+    margin-top: 480px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .varieties-title {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 42px;
+  }
+  .advantages-title {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .where .advantages-title {
+    margin-bottom: 54px;
+  }
+  .where-card {
+    margin-bottom: 62px;
+  }
+  .questions {
+    padding-bottom: 59px;
+  }
+  .questions .advantages-title {
+    position: relative;
+    max-width: auto;
+    top: 0;
+    margin-top: 69px;
+    margin-bottom: 38px !important;
+    opacity: 1;
+  }
+  .questions svg {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .table-block {
+    margin-bottom: 51px;
+  }
+  .table-block .row {
+    height: 60px;
+  }
+  .table-block .row .col {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .table-title-m {
+    font-size: 10px;
+    line-height: 13px;
+    max-width: 68px;
+  }
+  .table-title-s {
+    max-width: 62px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .table-text-m {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .table-text-s {
+    font-size: 7px;
+    line-height: 8px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .banner-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 414px) {
+  h3.heading_large {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .varieties-text {
+    font-size: 16px;
+  }
+  .where {
+    margin-top: 546px;
+  }
+  .where .container {
+    padding: 119px 0 0 0;
+  }
+  .where .advantages-title {
+    padding-left: 1rem;
+  }
+  .where .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .questions {
+    height: auto;
+  }
+  .questions .advantages-title {
+    margin-top: 69px;
+  }
+  .question-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .answer-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
