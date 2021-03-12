@@ -41,12 +41,13 @@ video {
   height: 100%;
 }
 .banner-title {
-  font-size: 52px;
-  line-height: 58px;
+  font-size: 72px;
+  line-height: 80px;
   color: #ffffff;
 }
 .banner-text {
   color: #ffffff;
+  font-size: 20px;
   letter-spacing: 0.015em;
 }
 .banner-logo {
@@ -89,8 +90,8 @@ video {
 }
 .varieties-title {
   font-weight: bold;
-  font-size: 66px;
-  line-height: 76px;
+  font-size: 48px;
+  line-height: 48px;
   color: #2b2b6b;
 }
 .varieties-title img,
@@ -133,7 +134,7 @@ video {
 h3.heading_large {
   font-weight: 500;
   font-size: 44px;
-  line-height: 54px;
+  line-height: 28px;
   text-transform: uppercase;
   margin-bottom: 21px;
 }
@@ -163,7 +164,7 @@ h3.heading_large {
 .varieties-text {
   font-weight: 300;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 32px;
   margin-bottom: 35px;
 }
 .varieties-btn {
@@ -250,7 +251,7 @@ h3.heading_large {
 .advantages-title {
   font-weight: bold;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 48px;
   color: #ffffff;
   margin-bottom: 147px;
 }
