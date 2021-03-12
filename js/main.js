@@ -1,6 +1,6 @@
-$(window).on('load', function () {
-	$('#wrap_preloader').delay(500).fadeToggle(500);
-});
+// $(window).on('load', function () {
+// 	$('#wrap_preloader').delay(500).fadeToggle(500);
+// });
 
 
 $('.form-input[type=tel]').mask('+38 (000) 000 00 00');

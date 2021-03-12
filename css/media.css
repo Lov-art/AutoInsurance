@@ -77,7 +77,8 @@
   .advantages-card {
     display: flex;
     flex-direction: column;
-    margin-bottom: 68px;
+    align-items: center;
+    margin-bottom: 38px;
   }
   .advantages-title {
     display: flex;
@@ -91,6 +92,9 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+  }
+  .advantages-card img {
+    max-width: 42px;
   }
   .advantages-form {
     position: absolute;
@@ -172,6 +176,9 @@
     font-size: 7px;
     line-height: 8px;
   }
+  .form-input {
+    margin-bottom: 15px;
+  }
 }
 @media screen and (max-width: 600px) {
   .banner-title {
@@ -184,12 +191,17 @@
   }
 }
 @media screen and (max-width: 414px) {
+  .banner .container .col-xl-7 svg {
+    width: 283px;
+    opacity: 0.5;
+  }
   h3.heading_large {
     font-size: 28px;
     line-height: 32px;
   }
   .varieties-text {
     font-size: 16px;
+    margin-bottom: 1rem;
   }
   .where {
     margin-top: 546px;

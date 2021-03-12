@@ -62,16 +62,16 @@ if (window.innerWidth > 1024) {
 		}
 	})
 
-	gsap.to(".questions .advantages-title", {
-		scrollTrigger: {
-			trigger: ".questions",
-			// onEnter onLeave onEnterBack onLeaveBakc
-			start: "top 60%",
-			endTrigger: ".three",
-			end: "top 20px",
-		},
-		duration: 6,
-		opacity: 1
+	// gsap.to(".questions .advantages-title", {
+	// 	scrollTrigger: {
+	// 		trigger: ".questions",
+	// 		// onEnter onLeave onEnterBack onLeaveBakc
+	// 		start: "top 60%",
+	// 		endTrigger: ".three",
+	// 		end: "top 20px",
+	// 	},
+	// 	duration: 6,
+	// 	opacity: 1
 
-	})
+	// })
 }
