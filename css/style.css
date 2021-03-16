@@ -440,6 +440,7 @@ label.error {
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
+  position: relative;
 }
 .question {
   height: 72px;
@@ -514,7 +515,7 @@ label.error {
 }
 .question-block-btn {
   color: #f7b118;
-  font-size: 3rem;
+  font-size: 4rem;
   outline: none;
   text-decoration: none;
   height: 100%;
@@ -523,9 +524,13 @@ label.error {
 }
 .question-block-btn[aria-expanded="false"]::after {
   content: "+";
+  position: absolute;
+  top: -20%;
 }
 .question-block-btn[aria-expanded="true"]::after {
   content: "-";
+  position: absolute;
+  top: -10%;
 }
 .question-block-btn:hover {
   color: #ff8400;
