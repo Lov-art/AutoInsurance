@@ -389,7 +389,7 @@ label.error {
   color: #4747b5;
 }
 .questions {
-  background: #020202;
+  background: #25266C;
   height: 1048px;
 }
 .questions .container {
@@ -412,11 +412,12 @@ label.error {
   max-width: 493px;
   z-index: 1;
   opacity: 1;
+  left: -10%;
 }
 .questions svg {
   position: absolute;
   top: 25%;
-  left: -4%;
+  left: -16%;
   z-index: 0;
   opacity: 0.2;
 }
@@ -444,10 +445,11 @@ label.error {
 }
 .question {
   height: 72px;
-  max-width: 610px;
+  /*max-width: 610px;*/
 }
 .question .row {
   height: 100%;
+  justify-content: space-between;
 }
 .question-text {
   font-weight: 500;
